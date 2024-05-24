@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhas Bharadwaj's Personal Webpage</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            background: url('https://th.bing.com/th/id/R.cf582657efaffb656b23798a94ae6f1b?rik=cO9FLA%2f3H95mqA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fBQPCFtN.jpg&ehk=su011N2ApmxdfZjoKqkTrWSdaL8j4IEJpl9i6P6BBvE%3d&risl=&pid=ImgRaw&r=0') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .profile-pic {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+        .social-media {
+            margin: 20px;
+        }
+        .social-media button {
+            background-color: rgba(0, 0, 0, 0.6);
+            border: none;
+            color: white;
+            padding: 15px 20px;
+            margin: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .social-media button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Suhas Bharadwaj</h1>
+        <p>Welcome to my personal webpage!</p>
+        <img src="https://i.imgur.com/M9FWy1m.jpg" alt="Suhas Bharadwaj's Picture" class="profile-pic">
+        <div class="social-media">
+            <button onclick="window.location.href='https://www.instagram.com/suhas_bharadwaj234/'">Instagram</button>
+            <button onclick="window.location.href='https://www.youtube.com/channel/UCFuE1mUXVB-vBchNjZe17BA'">YouTube</button>
+            <button onclick="window.location.href='https://x.com/SuhasBh86096493'">Twitter</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Suhas Bharadwaj. All rights reserved.</p>
+    </div>
+</body>
+</html>
